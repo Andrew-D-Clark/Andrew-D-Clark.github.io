@@ -40731,6 +40731,13 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -40787,11 +40794,15 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h4
         {
-        font-weight: 400;
         font-size: 1.5rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-weight: 400;
+        text-decoration: underline;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: 'Titillium Web',sans-serif;
         }
         h5
         {
@@ -40830,7 +40841,7 @@ a.u-link.u-text-hover-grey-90:hover {
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
         font-family: 'Titillium Web',sans-serif;
-        font-weight: 700;
+        font-weight: 400;
         }
         .u-btn
         {
@@ -40854,6 +40865,7 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        font-size: 0.875rem;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
         font-family: 'Titillium Web',sans-serif;
@@ -40943,6 +40955,13 @@ a.u-link.u-text-hover-grey-90:hover {
         /** cms-rules **/
 
         /** color-rules **/
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > h4,
+        .u-gradient > .u-container-layout > h4,
+        .u-image:not(.u-shading) > .u-container-layout > h4,
+        h4
+        {
+        color: #ffffff;
+        }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > p:not(.u-text-variant),
         .u-gradient > .u-container-layout > p:not(.u-text-variant),
         .u-image:not(.u-shading) > .u-container-layout > p:not(.u-text-variant),
@@ -41013,6 +41032,10 @@ a.u-link.u-text-hover-grey-90:hover {
         /** color-rules **/
 
         /** alt-color-rules **/
+        .u-shading h4,.u-overlap-contrast .u-header h4:not(.u-nav-link):not(.u-btn)
+        {
+        color: #b3b3b3;
+        }
         .u-shading p:not(.u-text-variant),.u-overlap-contrast .u-header p:not(.u-text-variant):not(.u-nav-link):not(.u-btn)
         {
         color: #111111;
