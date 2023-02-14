@@ -3,21 +3,16 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 542px;
-}
-
-.u-section-1 .u-text-1 {
-  font-weight: 400;
-  margin: 20px auto 0;
+  min-height: 1077px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 87px;
+  margin-bottom: 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 462px;
+  min-height: 488px;
   background-image: none;
 }
 
@@ -28,7 +23,7 @@
 .u-section-1 .u-video-1 {
   width: 582px;
   height: 327px;
-  margin: 0 auto 0 28px;
+  margin: 91px auto 0 28px;
 }
 
 .u-section-1 .embed-responsive-1 {
@@ -44,16 +39,16 @@
   padding: 0;
 }
 
-.u-section-1 .u-text-2 {
+.u-section-1 .u-text-1 {
   margin: 78px auto 0;
 }
 
-.u-section-1 .u-text-3 {
+.u-section-1 .u-text-2 {
   font-weight: 400;
   margin: 64px 33px 0;
 }
 
-.u-section-1 .u-text-4 {
+.u-section-1 .u-text-3 {
   margin: 20px auto 0;
 }
 
@@ -77,13 +72,19 @@
   color: rgb(235, 186, 22) !important;
 }
 
+.u-section-1 .u-image-1 {
+  width: 570px;
+  height: 407px;
+  margin: -712px auto 60px;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 456px;
+    min-height: 991px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 381px;
+    min-height: 402px;
   }
 
   .u-section-1 .u-video-1 {
@@ -99,11 +100,11 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 346px;
+    min-height: 897px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 292px;
+    min-height: 308px;
   }
 
   .u-section-1 .u-video-1 {
@@ -118,7 +119,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 519px;
+    min-height: 1053px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -134,11 +135,16 @@
     padding-left: 50px;
     padding-right: 50px;
   }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 386px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 384px;
+    min-height: 767px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -148,5 +154,10 @@
   .u-section-1 .u-video-1 {
     width: 340px;
     height: 191px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 243px;
   }
 }
