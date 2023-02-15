@@ -19,7 +19,7 @@
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": "",
+		"name": "Site1",
 		"sameAs": [
 				"https://github.com/Andrew-D-Clark",
 				"https://andrewclark.itch.io/",
@@ -28,8 +28,81 @@
 }</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Contact">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    function dynamicLoadScript() {
+        var script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js?render=6LePooQkAAAAALTpMC_JZy4bLR5oO9vTVLoeniXT';
+        script.async = true;
+        document.body.appendChild(script);
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+        var confirmButton = document.querySelector('.u-cookies-consent .u-button-confirm');
+        if (confirmButton) {
+            confirmButton.onclick = dynamicLoadScript;
+        }
+    });
+    </script>
+    <script>
+    if (gdprConfirmed()) {
+        document.write("<sc" + "ript src=\"https://www.google.com/recaptcha/api.js?render=6LePooQkAAAAALTpMC_JZy4bLR5oO9vTVLoeniXT\"></sc" + "ript>");
+    }
+    </script>
+    <script>
+    if (gdprConfirmed()) {
+        (function (grecaptcha, sitekey, actions) {
+            var recaptcha = {
+                execute: function (action, submitFormCb) {
+                    try {
+                        grecaptcha.execute(
+                            sitekey,
+                            {action: action}
+                        ).then(function (token) {
+                            var forms = document.getElementsByTagName('form');
+
+                            for (var i = 0; i < forms.length; i++) {
+                                var fields = forms[i].getElementsByTagName('input');
+
+                                for (var j = 0; j < fields.length; j++) {
+                                    var field = fields[j];
+
+                                    if ('recaptchaResponse' === field.getAttribute('name')) {
+                                        field.setAttribute('value', token);
+                                        break;
+                                    }
+                                }
+                            }
+                            submitFormCb();
+                        });
+                    } catch (e) {
+                        var formError = document.querySelector('.u-form-send-error');
+
+                        if (formError) {
+                            formError.innerText = 'Site Owner Error: ' + e.message.replace(/:[\s\S]*/, '');
+                            formError.style.display = 'block';
+                        }
+                    }
+                },
+
+                executeContact: function (submitFormCb) {
+                    recaptcha.execute(actions['contact'], submitFormCb);
+                }
+            };
+
+            window.recaptchaObject = recaptcha;
+        })(
+            grecaptcha,
+            
+            '6LePooQkAAAAALTpMC_JZy4bLR5oO9vTVLoeniXT',
+            {'contact': 'contact'}
+        );
+    }
+    </script>
+<meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-grey-80 u-header u-header" id="sec-d23e"><div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-align-right u-social-icons u-spacing-10 u-social-icons-1">
           <a class="u-social-url" title="GitHub" target="_blank" href="https://github.com/Andrew-D-Clark"><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-1"><img src="images/536452.png" alt=""></span>
@@ -105,6 +178,7 @@
             <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
             <input type="hidden" value="" name="recaptchaResponse">
             <input type="hidden" name="formServices" value="0be42cb6753c60ec2c99411778158b64">
+            <input type="hidden" name="siteKey" value="6LePooQkAAAAALTpMC_JZy4bLR5oO9vTVLoeniXT">
           </form>
         </div>
       </div>
