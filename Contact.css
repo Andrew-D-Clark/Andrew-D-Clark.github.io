@@ -41,24 +41,4 @@
   .u-section-1 .u-form-1 {
     width: 340px;
   }
-}.u-section-2 .u-sheet-1 {
-  min-height: 566px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 410px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 142px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 242px;
-  }
 }
