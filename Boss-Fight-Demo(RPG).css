@@ -564,13 +564,13 @@
 .u-section-4 .u-image-1 {
   width: 392px;
   height: 164px;
-  margin: 44px auto 0;
+  margin: 44px 59px 0 auto;
 }
 
 .u-section-4 .u-image-2 {
   width: 392px;
   height: 175px;
-  margin: 40px auto 0;
+  margin: 40px auto 0 41px;
 }
 
 .u-section-4 .u-layout-cell-2 {
@@ -617,11 +617,13 @@
   .u-section-4 .u-image-1 {
     width: 331px;
     height: 108px;
+    margin-right: 0;
   }
 
   .u-section-4 .u-image-2 {
     width: 360px;
     height: 161px;
+    margin-left: 0;
   }
 
   .u-section-4 .u-layout-cell-2 {
