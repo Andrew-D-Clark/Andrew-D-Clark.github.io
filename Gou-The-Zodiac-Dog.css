@@ -29,7 +29,7 @@
 .u-section-1 .u-video-1 {
   width: 582px;
   height: 327px;
-  margin: 91px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-1 .embed-responsive-1 {
@@ -90,7 +90,6 @@
   .u-section-1 .u-video-1 {
     width: 502px;
     height: 282px;
-    margin-top: 0;
   }
 
   .u-section-1 .u-layout-cell-2 {
