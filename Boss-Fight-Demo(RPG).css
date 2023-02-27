@@ -402,15 +402,15 @@
 }
 
 .u-section-3 .u-image-1 {
-  width: 322px;
-  height: 120px;
-  margin: 70px auto 0;
+  width: 333px;
+  height: 124px;
+  margin: 68px 64px 0 auto;
 }
 
 .u-section-3 .u-image-2 {
   width: 333px;
   height: 120px;
-  margin: 64px auto 0;
+  margin: 64px auto 0 64px;
 }
 
 @media (max-width: 1199px) {
@@ -536,7 +536,7 @@
     width: 219px;
     height: 79px;
     margin-top: 52px;
-    margin-left: auto;
+    margin-left: 7px;
     margin-right: auto;
   }
 } .u-section-4 {
@@ -564,13 +564,13 @@
 .u-section-4 .u-image-1 {
   width: 392px;
   height: 164px;
-  margin: 44px auto 0;
+  margin: 44px 52px 0 auto;
 }
 
 .u-section-4 .u-image-2 {
   width: 392px;
   height: 175px;
-  margin: 40px auto 0;
+  margin: 40px auto 0 52px;
 }
 
 .u-section-4 .u-layout-cell-2 {
@@ -625,11 +625,13 @@
   .u-section-4 .u-image-1 {
     width: 331px;
     height: 108px;
+    margin-right: 0;
   }
 
   .u-section-4 .u-image-2 {
     width: 360px;
     height: 161px;
+    margin-left: 0;
   }
 
   .u-section-4 .u-layout-cell-2 {
@@ -2092,16 +2094,6 @@
   padding: 0;
 }
 
-.u-section-13 .u-btn-2 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-13 .u-btn-3 {
-  background-image: none;
-  padding: 0;
-}
-
 .u-section-13 .u-layout-cell-2 {
   min-height: 462px;
   background-image: none;
@@ -2260,27 +2252,7 @@
 
 .u-section-14 .u-text-2 {
   width: 247px;
-  margin: 37px auto 0;
-}
-
-.u-section-14 .u-text-3 {
-  margin: 40px 0 0;
-}
-
-.u-section-14 .u-btn-1 {
-  background-image: none;
-  margin-top: 1px;
-  padding: 0;
-}
-
-.u-section-14 .u-btn-2 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-14 .u-btn-3 {
-  background-image: none;
-  padding: 0;
+  margin: 58px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -2387,27 +2359,7 @@
 
 .u-section-15 .u-text-2 {
   width: 247px;
-  margin: 37px auto 0;
-}
-
-.u-section-15 .u-text-3 {
-  margin: 40px 0 0;
-}
-
-.u-section-15 .u-btn-1 {
-  background-image: none;
-  margin-top: 1px;
-  padding: 0;
-}
-
-.u-section-15 .u-btn-2 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-15 .u-btn-3 {
-  background-image: none;
-  padding: 0;
+  margin: 58px auto 0;
 }
 
 .u-section-15 .u-layout-cell-2 {
@@ -2800,16 +2752,21 @@
 
 .u-section-18 .u-btn-1 {
   background-image: none;
-  margin-top: 1px;
   padding: 0;
 }
 
 .u-section-18 .u-btn-2 {
   background-image: none;
+  margin-top: 1px;
   padding: 0;
 }
 
 .u-section-18 .u-btn-3 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-18 .u-btn-4 {
   background-image: none;
   padding: 0;
 }
