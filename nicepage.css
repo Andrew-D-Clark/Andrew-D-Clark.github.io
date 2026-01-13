@@ -47305,10 +47305,9 @@ a.u-link.u-text-hover-color-var:hover {
 
 .u-footer .u-social-icons-1 {
   height: 29px;
-  min-height: 16px;
   width: 126px;
   min-width: 68px;
-  margin: 31px auto 0;
+  margin: 23px auto 0;
 }
 
 .u-footer .u-icon-1 {
@@ -47326,11 +47325,12 @@ a.u-link.u-text-hover-color-var:hover {
 .u-footer .u-btn-1 {
   background-image: none;
   font-size: 1.5rem;
-  margin: 9px auto 31px;
+  margin: 17px auto 35px;
   padding: 0;
 }
 @media (max-width: 1199px) {
   .u-footer .u-social-icons-1 {
+    min-height: 16px;
     width: 106px;
   }
 }
